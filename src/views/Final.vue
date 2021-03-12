@@ -70,9 +70,6 @@ export default {
       this.aid_1 = first/QUEUE_LEN * 100;
       this.aid_2 = second/QUEUE_LEN * 100;
       this.aid_3 = third/QUEUE_LEN * 100
-      console.log(this.aid_1)
-      console.log(this.aid_2)
-      console.log(this.aid_3)
     }
   }
 }

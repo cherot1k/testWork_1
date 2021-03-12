@@ -96,11 +96,11 @@ export default {
       data: true,
       defaultTransition:'bounce',
       arrayOfMembers:[
-        {photoUrl:'member1.png', name:'Lorem ipsum1', description:'lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem', selectedBtn:''},
-        {photoUrl:'member2.png', name:'Lorem ipsum2', description:'lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem', selectedBtn:''},
-        {photoUrl:'member3.png', name:'Lorem ipsum3', description:'lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem', selectedBtn:''},
-        {photoUrl:'member4.png', name:'Lorem ipsum4', description:'lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem', selectedBtn:''},
-        {photoUrl:'member5.png', name:'Lorem ipsum5', description:'lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem', selectedBtn:''}
+        {photoUrl:'member1.png', name:'Валентина, 75 років', description:'Дитя, дай бабусі ліки від тиску за цим рецептом, але не дорогих, тих, що дешевші!', selectedBtn:''},
+        {photoUrl:'member2.png', name:'Степан, 61 рік', description:'Спросоння відсунув гарячий чайник рукою та обпікся. У Вас всі ліки від опіків такі дорогі? Можна хороший препарат недорого?', selectedBtn:''},
+        {photoUrl:'member3.png', name:'Любов, 58 років', description:'Лікар призначив препарат від артеріальної гіпертензії, а бренд дорого коштує. Тому мені потрібен аналог з хорошою ефективністю та приємною ціною.', selectedBtn:''},
+        {photoUrl:'member4.png', name:'Олександр, 20 років', description:'Порекомендуйте ефективний препарат від болю в горлі за розумну ціну.', selectedBtn:''},
+        {photoUrl:'member5.png', name:'Ірина, 55 років', description:' У мене часто невралгії, лікар призначив вітаміни групи В. Мені потрібен якісний аналог за прийнятною ціною.', selectedBtn:''}
       ],
       chooseFirst:0,
       chooseSecond:0,
@@ -178,8 +178,8 @@ export default {
 .about > .sidebar{
   grid-area: nv;
   background: linear-gradient(63.53deg,
-  rgba(45, 133, 80,.83),
-  rgba(94, 110, 194,.83));
+  rgba(45, 133, 80,1),
+  rgba(94, 110, 194,1));
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -189,7 +189,6 @@ export default {
       "cn"
       "ft";
   z-index: 5;
-  opacity: 1 !important;
 }
 .about> .ct{
   grid-area: ct;
@@ -264,10 +263,10 @@ export default {
 
 .member_card{
   position: absolute;
-  top: 20%;
-  left: 25%;
-  width: 50%;
-  height: 530px;
+  top: 10%;
+  left: 20%;
+  width: 60%;
+  height: 560px;
   border-radius: 40px !important;
   z-index: 1;
   overflow: hidden !important;
