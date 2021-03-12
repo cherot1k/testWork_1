@@ -67,8 +67,8 @@ export default {
   },
   methods:{
     calculatePercents(first, second , third){
-      this.aid_1 = first/QUEUE_LEN * 100;
-      this.aid_2 = second/QUEUE_LEN * 100;
+      this.aid_1 = first/QUEUE_LEN * 100
+      this.aid_2 = second/QUEUE_LEN * 100
       this.aid_3 = third/QUEUE_LEN * 100
     }
   }
