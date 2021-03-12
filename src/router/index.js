@@ -19,7 +19,6 @@ const routes = [
     path: '/final',
     name: 'Final',
     component: () => import('../views/Final.vue'),
-
   }
 ]
 
