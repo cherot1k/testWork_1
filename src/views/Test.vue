@@ -271,6 +271,11 @@ export default {
   z-index: 1;
   overflow: hidden !important;
 }
+@media screen and (max-height: 800px){
+   .member_card{
+     height: 480px;
+   }
+}
 
 .aid_choosed{
   display: flex;
